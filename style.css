@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 30%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1.5rem;
+  border-radius: 20px;
+}
+.login-area {
+  width: 100%;
+  height: 300px;
+  background: url(./images/wave-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+  padding: 3rem;
+  color: white;
+}
+.login-area h2 {
+  text-transform: capitalize;
+  letter-spacing: 6px;
+  font-family: "Salsa", cursive;
+}
+.login-area p {
+  font-family: "Style Script", cursive;
+  font-size: 2rem;
+  font-weight: 200;
+}
+.inp-section {
+  margin-top: -6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.inp-section h2 {
+  text-transform: capitalize;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Salsa", cursive;
+}
+.inp-area {
+  width: 300px;
+}
+.username,
+.password {
+  margin: 12px auto;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.inp-area input {
+  width: 90%;
+  padding: 12px 2.5rem;
+  border-radius: 22px;
+  border: none;
+  outline: none;
+  background-color: #f7f3ff;
+}
+.inp-area input::placeholder {
+  text-transform: capitalize;
+  /* padding-left: 1.5rem; */
+  font-weight: bold;
+}
+.inp-area .fa-solid {
+  position: absolute;
+  top: 10px;
+  left: 16px;
+  z-index: 1000;
+  color: gray;
+}
+.inp-area button {
+  width: 90%;
+  padding: 8px 2.5rem;
+  border-radius: 22px;
+  border: none;
+  outline: none;
+  background-color: #320c85;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  font-family: "Salsa", cursive;
+  color: white;
+}
+.icons {
+  width: 90%;
+  padding: 12px 0.4rem;
+  border-radius: 22px;
+  background-color: #f7f3ff;
+  display: flex;
+  justify-content: space-between;
+}
+.icons .fa-brands {
+  font-size: 22px;
+  background-color: #320c85;
+  padding: 8px;
+  border-radius: 4px;
+  color: white;
+}
+.forget-line {
+  width: 92%;
+  letter-spacing: 2px;
+  margin: 8px;
+  font-size: 14px;
+  padding-bottom: 4px;
+  text-align: center;
+  text-transform: capitalize;
+  color: gray;
+  font-weight: 100;
+  border-bottom: 1px solid gray;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
